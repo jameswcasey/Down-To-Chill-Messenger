@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8950928F24E46AFD00022520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8950928E24E46AFD00022520 /* AppDelegate.swift */; };
+		8950929124E46AFD00022520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8950929024E46AFD00022520 /* SceneDelegate.swift */; };
+		8950929324E46AFD00022520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8950929224E46AFD00022520 /* ViewController.swift */; };
+		8950929624E46AFD00022520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8950929424E46AFD00022520 /* Main.storyboard */; };
+		8950929924E46AFD00022520 /* Down_To_Chill_Messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8950929724E46AFD00022520 /* Down_To_Chill_Messenger.xcdatamodeld */; };
+		8950929B24E46AFF00022520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8950929A24E46AFF00022520 /* Assets.xcassets */; };
+		8950929E24E46AFF00022520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8950929C24E46AFF00022520 /* LaunchScreen.storyboard */; };
+		895092A924E46B0000022520 /* Down_To_Chill_MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895092A824E46B0000022520 /* Down_To_Chill_MessengerTests.swift */; };
+		895092B424E46B0000022520 /* Down_To_Chill_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895092B324E46B0000022520 /* Down_To_Chill_MessengerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		895092A524E46B0000022520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8950928324E46AFD00022520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8950928A24E46AFD00022520;
+			remoteInfo = "Down To Chill Messenger";
+		};
+		895092B024E46B0000022520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8950928324E46AFD00022520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8950928A24E46AFD00022520;
+			remoteInfo = "Down To Chill Messenger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8950928B24E46AFD00022520 /* Down To Chill Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Down To Chill Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8950928E24E46AFD00022520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8950929024E46AFD00022520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8950929224E46AFD00022520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8950929524E46AFD00022520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8950929824E46AFD00022520 /* Down_To_Chill_Messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Down_To_Chill_Messenger.xcdatamodel; sourceTree = "<group>"; };
+		8950929A24E46AFF00022520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8950929D24E46AFF00022520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8950929F24E46AFF00022520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895092A424E46B0000022520 /* Down To Chill MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Down To Chill MessengerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		895092A824E46B0000022520 /* Down_To_Chill_MessengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Down_To_Chill_MessengerTests.swift; sourceTree = "<group>"; };
+		895092AA24E46B0000022520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895092AF24E46B0000022520 /* Down To Chill MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Down To Chill MessengerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		895092B324E46B0000022520 /* Down_To_Chill_MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Down_To_Chill_MessengerUITests.swift; sourceTree = "<group>"; };
+		895092B524E46B0000022520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8950928824E46AFD00022520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895092A124E46B0000022520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895092AC24E46B0000022520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8950928224E46AFD00022520 = {
+			isa = PBXGroup;
+			children = (
+				8950928D24E46AFD00022520 /* Down To Chill Messenger */,
+				895092A724E46B0000022520 /* Down To Chill MessengerTests */,
+				895092B224E46B0000022520 /* Down To Chill MessengerUITests */,
+				8950928C24E46AFD00022520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8950928C24E46AFD00022520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8950928B24E46AFD00022520 /* Down To Chill Messenger.app */,
+				895092A424E46B0000022520 /* Down To Chill MessengerTests.xctest */,
+				895092AF24E46B0000022520 /* Down To Chill MessengerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8950928D24E46AFD00022520 /* Down To Chill Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				8950928E24E46AFD00022520 /* AppDelegate.swift */,
+				8950929024E46AFD00022520 /* SceneDelegate.swift */,
+				8950929224E46AFD00022520 /* ViewController.swift */,
+				8950929424E46AFD00022520 /* Main.storyboard */,
+				8950929A24E46AFF00022520 /* Assets.xcassets */,
+				8950929C24E46AFF00022520 /* LaunchScreen.storyboard */,
+				8950929F24E46AFF00022520 /* Info.plist */,
+				8950929724E46AFD00022520 /* Down_To_Chill_Messenger.xcdatamodeld */,
+			);
+			path = "Down To Chill Messenger";
+			sourceTree = "<group>";
+		};
+		895092A724E46B0000022520 /* Down To Chill MessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				895092A824E46B0000022520 /* Down_To_Chill_MessengerTests.swift */,
+				895092AA24E46B0000022520 /* Info.plist */,
+			);
+			path = "Down To Chill MessengerTests";
+			sourceTree = "<group>";
+		};
+		895092B224E46B0000022520 /* Down To Chill MessengerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				895092B324E46B0000022520 /* Down_To_Chill_MessengerUITests.swift */,
+				895092B524E46B0000022520 /* Info.plist */,
+			);
+			path = "Down To Chill MessengerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8950928A24E46AFD00022520 /* Down To Chill Messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895092B824E46B0000022520 /* Build configuration list for PBXNativeTarget "Down To Chill Messenger" */;
+			buildPhases = (
+				8950928724E46AFD00022520 /* Sources */,
+				8950928824E46AFD00022520 /* Frameworks */,
+				8950928924E46AFD00022520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Down To Chill Messenger";
+			productName = "Down To Chill Messenger";
+			productReference = 8950928B24E46AFD00022520 /* Down To Chill Messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		895092A324E46B0000022520 /* Down To Chill MessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895092BB24E46B0000022520 /* Build configuration list for PBXNativeTarget "Down To Chill MessengerTests" */;
+			buildPhases = (
+				895092A024E46B0000022520 /* Sources */,
+				895092A124E46B0000022520 /* Frameworks */,
+				895092A224E46B0000022520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895092A624E46B0000022520 /* PBXTargetDependency */,
+			);
+			name = "Down To Chill MessengerTests";
+			productName = "Down To Chill MessengerTests";
+			productReference = 895092A424E46B0000022520 /* Down To Chill MessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		895092AE24E46B0000022520 /* Down To Chill MessengerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895092BE24E46B0000022520 /* Build configuration list for PBXNativeTarget "Down To Chill MessengerUITests" */;
+			buildPhases = (
+				895092AB24E46B0000022520 /* Sources */,
+				895092AC24E46B0000022520 /* Frameworks */,
+				895092AD24E46B0000022520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895092B124E46B0000022520 /* PBXTargetDependency */,
+			);
+			name = "Down To Chill MessengerUITests";
+			productName = "Down To Chill MessengerUITests";
+			productReference = 895092AF24E46B0000022520 /* Down To Chill MessengerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8950928324E46AFD00022520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "James Casey";
+				TargetAttributes = {
+					8950928A24E46AFD00022520 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					895092A324E46B0000022520 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 8950928A24E46AFD00022520;
+					};
+					895092AE24E46B0000022520 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 8950928A24E46AFD00022520;
+					};
+				};
+			};
+			buildConfigurationList = 8950928624E46AFD00022520 /* Build configuration list for PBXProject "Down To Chill Messenger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8950928224E46AFD00022520;
+			productRefGroup = 8950928C24E46AFD00022520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8950928A24E46AFD00022520 /* Down To Chill Messenger */,
+				895092A324E46B0000022520 /* Down To Chill MessengerTests */,
+				895092AE24E46B0000022520 /* Down To Chill MessengerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8950928924E46AFD00022520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8950929E24E46AFF00022520 /* LaunchScreen.storyboard in Resources */,
+				8950929B24E46AFF00022520 /* Assets.xcassets in Resources */,
+				8950929624E46AFD00022520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895092A224E46B0000022520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895092AD24E46B0000022520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8950928724E46AFD00022520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8950929324E46AFD00022520 /* ViewController.swift in Sources */,
+				8950929924E46AFD00022520 /* Down_To_Chill_Messenger.xcdatamodeld in Sources */,
+				8950928F24E46AFD00022520 /* AppDelegate.swift in Sources */,
+				8950929124E46AFD00022520 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895092A024E46B0000022520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895092A924E46B0000022520 /* Down_To_Chill_MessengerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895092AB24E46B0000022520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895092B424E46B0000022520 /* Down_To_Chill_MessengerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		895092A624E46B0000022520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8950928A24E46AFD00022520 /* Down To Chill Messenger */;
+			targetProxy = 895092A524E46B0000022520 /* PBXContainerItemProxy */;
+		};
+		895092B124E46B0000022520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8950928A24E46AFD00022520 /* Down To Chill Messenger */;
+			targetProxy = 895092B024E46B0000022520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8950929424E46AFD00022520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8950929524E46AFD00022520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8950929C24E46AFF00022520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8950929D24E46AFF00022520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		895092B624E46B0000022520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		895092B724E46B0000022520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895092B924E46B0000022520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJ879F22P;
+				INFOPLIST_FILE = "Down To Chill Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BluSoftware.Down-To-Chill-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		895092BA24E46B0000022520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJ879F22P;
+				INFOPLIST_FILE = "Down To Chill Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BluSoftware.Down-To-Chill-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		895092BC24E46B0000022520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJ879F22P;
+				INFOPLIST_FILE = "Down To Chill MessengerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BluSoftware.Down-To-Chill-MessengerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Down To Chill Messenger.app/Down To Chill Messenger";
+			};
+			name = Debug;
+		};
+		895092BD24E46B0000022520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJ879F22P;
+				INFOPLIST_FILE = "Down To Chill MessengerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BluSoftware.Down-To-Chill-MessengerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Down To Chill Messenger.app/Down To Chill Messenger";
+			};
+			name = Release;
+		};
+		895092BF24E46B0000022520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJ879F22P;
+				INFOPLIST_FILE = "Down To Chill MessengerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BluSoftware.Down-To-Chill-MessengerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Down To Chill Messenger";
+			};
+			name = Debug;
+		};
+		895092C024E46B0000022520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJ879F22P;
+				INFOPLIST_FILE = "Down To Chill MessengerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BluSoftware.Down-To-Chill-MessengerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Down To Chill Messenger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8950928624E46AFD00022520 /* Build configuration list for PBXProject "Down To Chill Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895092B624E46B0000022520 /* Debug */,
+				895092B724E46B0000022520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895092B824E46B0000022520 /* Build configuration list for PBXNativeTarget "Down To Chill Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895092B924E46B0000022520 /* Debug */,
+				895092BA24E46B0000022520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895092BB24E46B0000022520 /* Build configuration list for PBXNativeTarget "Down To Chill MessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895092BC24E46B0000022520 /* Debug */,
+				895092BD24E46B0000022520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895092BE24E46B0000022520 /* Build configuration list for PBXNativeTarget "Down To Chill MessengerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895092BF24E46B0000022520 /* Debug */,
+				895092C024E46B0000022520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8950929724E46AFD00022520 /* Down_To_Chill_Messenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8950929824E46AFD00022520 /* Down_To_Chill_Messenger.xcdatamodel */,
+			);
+			currentVersion = 8950929824E46AFD00022520 /* Down_To_Chill_Messenger.xcdatamodel */;
+			path = Down_To_Chill_Messenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8950928324E46AFD00022520 /* Project object */;
+}
